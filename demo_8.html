@@ -191,16 +191,16 @@ document.addEventListener('keydown', e => {
 
 <script>
 // ── Data ──────────────────────────────────────────────────────
-const KPIS        = [{"label": "Total Sponsorships", "value": "150", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Community Impact Score", "value": "85", "delta": "\u2191 15%", "color": "#06b6d4"}, {"label": "New Leads Generated", "value": "30", "delta": "\u2191 20%", "color": "#f59e0b"}, {"label": "Active Partnerships", "value": "25", "delta": "\u2191 5%", "color": "#10b981"}];
+const KPIS        = [{"label": "Total Sponsorships", "value": "150", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Community Engagement", "value": "75%", "delta": "\u2191 5%", "color": "#06b6d4"}, {"label": "Sponsorship Revenue", "value": "$2M", "delta": "\u2191 8%", "color": "#f59e0b"}, {"label": "Employee Satisfaction", "value": "90%", "delta": "\u2191 3%", "color": "#10b981"}];
 const BAR_LABELS  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const BAR_VALUES  = [65, 82, 54, 91, 73, 38, 47];
 const BAR_TITLE   = "Weekly Sponsorship Engagement";
-const LINE_TITLE  = "Sponsorship Growth Trend";
+const LINE_TITLE  = "Sponsorship Revenue Trend";
 const TBL_TITLE   = "Current Sponsorship Pipeline";
-const TBL_HEADERS = ["Name/Item", "Category", "Detail", "$ Value", "Status"];
-const TBL_ROWS    = [["AO Arena", "Venue", "Major Event", "$120K", "Active"], ["Local Festival", "Community", "Cultural Event", "$85K", "Pending"], ["City Sports Event", "Sports", "Annual Sponsorship", "$200K", "Active"], ["Charity Gala", "Charity", "Annual Fundraiser", "$55K", "Closed"], ["Music Festival", "Entertainment", "Annual Event", "$310K", "Active"]];
+const TBL_HEADERS = ["Column1", "Column2", "Column3", "Value", "Status"];
+const TBL_ROWS    = [["AO Arena", "Sports", "Major Event", "$120K", "Active"], ["Local Festival", "Community", "Cultural Event", "$85K", "Pending"], ["Music Concert", "Entertainment", "Live Performance", "$200K", "Active"], ["Charity Gala", "Non-Profit", "Fundraising", "$55K", "Closed"], ["Business Expo", "Networking", "Trade Show", "$310K", "Active"]];
 const NAV_ITEMS   = ["Overview", "Pipeline", "Analytics", "Reports", "Settings"];
-const APP_TITLE   = "Sponsorship Success Suite";
+const APP_TITLE   = "Sponsorship Success Hub";
 
 // ── Populate static elements ──────────────────────────────────
 document.getElementById('brandName').textContent = APP_TITLE;
