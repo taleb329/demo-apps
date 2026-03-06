@@ -191,16 +191,16 @@ document.addEventListener('keydown', e => {
 
 <script>
 // ── Data ──────────────────────────────────────────────────────
-const KPIS        = [{"label": "Daily Active Users", "value": "1,200", "delta": "\u2191 15%", "color": "#3b82f6"}, {"label": "Conversion Rate", "value": "4.5%", "delta": "\u2191 10%", "color": "#06b6d4"}, {"label": "Return on Ad Spend", "value": "$5.50", "delta": "\u2191 20%", "color": "#f59e0b"}, {"label": "Customer Lifetime Value", "value": "$120", "delta": "\u2191 12%", "color": "#10b981"}];
+const KPIS        = [{"label": "Active Users", "value": "1,200", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Conversion Rate", "value": "4.5%", "delta": "\u2191 2%", "color": "#06b6d4"}, {"label": "Ad Spend ROI", "value": "$3.50", "delta": "\u2191 15%", "color": "#f59e0b"}, {"label": "Customer Lifetime Value", "value": "$150", "delta": "\u2191 8%", "color": "#10b981"}];
 const BAR_LABELS  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const BAR_VALUES  = [65, 82, 54, 91, 73, 38, 47];
 const BAR_TITLE   = "Weekly User Engagement";
 const LINE_TITLE  = "Monthly Revenue Growth";
-const TBL_TITLE   = "Product Development Pipeline";
+const TBL_TITLE   = "Current Project Pipeline";
 const TBL_HEADERS = ["Column1", "Column2", "Column3", "Value", "Status"];
-const TBL_ROWS    = [["New Feature A", "Software", "Enhancement", "$120K", "Active"], ["New Feature B", "Software", "Development", "$85K", "Pending"], ["New Feature C", "Software", "Testing", "$200K", "Active"], ["Bug Fix A", "Maintenance", "Resolved", "$55K", "Closed"], ["New Feature D", "Software", "Planning", "$310K", "Active"]];
+const TBL_ROWS    = [["New Feature A", "Development", "Enhancement of user interface", "$120K", "Active"], ["Marketing Campaign B", "Marketing", "Paid ads for conversion", "$85K", "Pending"], ["Integration C", "Development", "API integration with partners", "$200K", "Active"], ["Bug Fix D", "Support", "Critical bug resolution", "$55K", "Closed"], ["New Partner E", "Partnership", "Onboarding new sports partners", "$310K", "Active"]];
 const NAV_ITEMS   = ["Overview", "Pipeline", "Analytics", "Reports", "Settings"];
-const APP_TITLE   = "Commerce Growth Tracker";
+const APP_TITLE   = "Commerce Growth Dashboard";
 
 // ── Populate static elements ──────────────────────────────────
 document.getElementById('brandName').textContent = APP_TITLE;
