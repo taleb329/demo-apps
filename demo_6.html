@@ -191,16 +191,16 @@ document.addEventListener('keydown', e => {
 
 <script>
 // ── Data ──────────────────────────────────────────────────────
-const KPIS        = [{"label": "Total Supporters", "value": "150", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Current Projects", "value": "5", "delta": "\u2191 20%", "color": "#06b6d4"}, {"label": "Upcoming Tasks", "value": "10", "delta": "\u2191 15%", "color": "#f59e0b"}, {"label": "Work Hours Logged", "value": "320", "delta": "\u2191 5%", "color": "#10b981"}];
+const KPIS        = [{"label": "Team Engagement", "value": "75%", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Project Milestones Achieved", "value": "15", "delta": "\u2191 5%", "color": "#06b6d4"}, {"label": "Budget Utilization", "value": "80%", "delta": "\u2191 2%", "color": "#f59e0b"}, {"label": "Client Satisfaction", "value": "90%", "delta": "\u2191 3%", "color": "#10b981"}];
 const BAR_LABELS  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const BAR_VALUES  = [65, 82, 54, 91, 73, 38, 47];
-const BAR_TITLE   = "Weekly Support Engagement";
-const LINE_TITLE  = "Future Project Milestones";
+const BAR_TITLE   = "Weekly Team Progress";
+const LINE_TITLE  = "Project Timeline Progression";
 const TBL_TITLE   = "Current Project Pipeline";
-const TBL_HEADERS = ["Project Name", "Phase", "Detail", "Budget", "Status"];
-const TBL_ROWS    = [["Project Alpha", "Development", "Initial phase", "$120K", "Active"], ["Project Beta", "Planning", "Strategizing", "$85K", "Pending"], ["Project Gamma", "Execution", "Final touches", "$200K", "Active"], ["Project Delta", "Closure", "Final review", "$55K", "Closed"], ["Project Epsilon", "Execution", "Midway check-in", "$310K", "Active"]];
+const TBL_HEADERS = ["Project Name", "Client", "Deadline", "Value", "Status"];
+const TBL_ROWS    = [["Project Alpha", "Client A", "2023-12-01", "$120K", "Active"], ["Project Beta", "Client B", "2023-11-15", "$85K", "Pending"], ["Project Gamma", "Client C", "2024-01-20", "$200K", "Active"], ["Project Delta", "Client D", "2023-10-30", "$55K", "Closed"], ["Project Epsilon", "Client E", "2023-12-10", "$310K", "Active"]];
 const NAV_ITEMS   = ["Overview", "Pipeline", "Analytics", "Reports", "Settings"];
-const APP_TITLE   = "Journey Success Tracker";
+const APP_TITLE   = "Journey Navigator Pro";
 
 // ── Populate static elements ──────────────────────────────────
 document.getElementById('brandName').textContent = APP_TITLE;
