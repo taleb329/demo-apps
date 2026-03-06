@@ -191,16 +191,16 @@ document.addEventListener('keydown', e => {
 
 <script>
 // ── Data ──────────────────────────────────────────────────────
-const KPIS        = [{"label": "Active Partnerships", "value": "150", "delta": "\u2191 20%", "color": "#3b82f6"}, {"label": "Total Creators Engaged", "value": "300", "delta": "\u2191 15%", "color": "#06b6d4"}, {"label": "Average Equity Offered", "value": "$50K", "delta": "\u2191 10%", "color": "#f59e0b"}, {"label": "Community Members", "value": "200", "delta": "\u2191 25%", "color": "#10b981"}];
+const KPIS        = [{"label": "Active Partnerships", "value": "150", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "New Brand Matches", "value": "25", "delta": "\u2191 15%", "color": "#06b6d4"}, {"label": "Community Engagement", "value": "300", "delta": "\u2191 20%", "color": "#f59e0b"}, {"label": "Revenue Growth", "value": "$1.2M", "delta": "\u2191 5%", "color": "#10b981"}];
 const BAR_LABELS  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const BAR_VALUES  = [65, 82, 54, 91, 73, 38, 47];
-const BAR_TITLE   = "Weekly Engagement Trends";
+const BAR_TITLE   = "Weekly Partnership Engagement";
 const LINE_TITLE  = "Partnership Growth Over Time";
-const TBL_TITLE   = "Active Brand Partnerships";
-const TBL_HEADERS = ["Brand Name", "Role", "Details", "Value", "Status"];
-const TBL_ROWS    = [["Brand A", "Co-founder", "Equity partnership", "$120K", "Active"], ["Brand B", "Advisor", "Consulting role", "$85K", "Pending"], ["Brand C", "Ambassador", "Brand promotion", "$200K", "Active"], ["Brand D", "Co-founder", "Startup launch", "$55K", "Closed"], ["Brand E", "Advisor", "Strategic guidance", "$310K", "Active"]];
+const TBL_TITLE   = "Current Partnership Pipeline";
+const TBL_HEADERS = ["Column1", "Column2", "Column3", "Value", "Status"];
+const TBL_ROWS    = [["Brand A", "Co-founder", "Equity Partnership", "$120K", "Active"], ["Brand B", "Advisor", "Consulting Role", "$85K", "Pending"], ["Brand C", "Ambassador", "Long-term Deal", "$200K", "Active"], ["Brand D", "Advisor", "Advisory Board", "$55K", "Closed"], ["Brand E", "Co-founder", "Startup Launch", "$310K", "Active"]];
 const NAV_ITEMS   = ["Overview", "Pipeline", "Analytics", "Reports", "Settings"];
-const APP_TITLE   = "Creator Connect Hub";
+const APP_TITLE   = "Partnership Pipeline Pro";
 
 // ── Populate static elements ──────────────────────────────────
 document.getElementById('brandName').textContent = APP_TITLE;
