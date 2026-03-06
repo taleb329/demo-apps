@@ -191,16 +191,16 @@ document.addEventListener('keydown', e => {
 
 <script>
 // ── Data ──────────────────────────────────────────────────────
-const KPIS        = [{"label": "Candidates Engaged", "value": "150", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Job Applications", "value": "40", "delta": "\u2191 15%", "color": "#06b6d4"}, {"label": "Social Media Shares", "value": "200", "delta": "\u2191 12%", "color": "#f59e0b"}, {"label": "Industry Growth Rate", "value": "25%", "delta": "\u2191 5%", "color": "#10b981"}];
+const KPIS        = [{"label": "Candidates Applied", "value": "150", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Interviews Scheduled", "value": "30", "delta": "\u2191 5%", "color": "#06b6d4"}, {"label": "Positions Filled", "value": "5", "delta": "\u2191 15%", "color": "#f59e0b"}, {"label": "Candidate Satisfaction", "value": "90%", "delta": "\u2191 2%", "color": "#10b981"}];
 const BAR_LABELS  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-const BAR_VALUES  = [65, 82, 54, 91, 73, 38, 47];
-const BAR_TITLE   = "Weekly Candidate Engagement";
-const LINE_TITLE  = "Monthly Application Trends";
-const TBL_TITLE   = "Current Job Opportunities";
-const TBL_HEADERS = ["Position", "Department", "Location", "Salary", "Status"];
-const TBL_ROWS    = [["Communications Specialist", "Comms", "Remote", "$120K", "Active"], ["Media Relations Manager", "Comms", "New York", "$85K", "Pending"], ["Content Creator", "Marketing", "Los Angeles", "$200K", "Active"], ["Social Media Analyst", "Analytics", "Chicago", "$55K", "Closed"], ["Public Relations Coordinator", "Comms", "Miami", "$310K", "Active"]];
-const NAV_ITEMS   = ["Overview", "Job Openings", "Candidate Pipeline", "Analytics", "Settings"];
-const APP_TITLE   = "Sports Media Connect";
+const BAR_VALUES  = [25, 30, 22, 40, 35, 10, 8];
+const BAR_TITLE   = "Weekly Candidate Applications";
+const LINE_TITLE  = "Interview Trends Over Time";
+const TBL_TITLE   = "Current Hiring Pipeline";
+const TBL_HEADERS = ["Candidate Name", "Position", "Experience", "$ Expected Salary", "Application Status"];
+const TBL_ROWS    = [["John Doe", "Communications Specialist", "3 years", "$120K", "Active"], ["Jane Smith", "Media Relations Manager", "2 years", "$85K", "Pending"], ["Emily Johnson", "Social Media Coordinator", "4 years", "$200K", "Active"], ["Michael Brown", "Content Creator", "1 year", "$55K", "Closed"], ["Sarah Davis", "Event Coordinator", "5 years", "$310K", "Active"]];
+const NAV_ITEMS   = ["Overview", "Pipeline", "Analytics", "Reports", "Settings"];
+const APP_TITLE   = "Talent Tracker Pro";
 
 // ── Populate static elements ──────────────────────────────────
 document.getElementById('brandName').textContent = APP_TITLE;
