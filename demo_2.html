@@ -191,16 +191,16 @@ document.addEventListener('keydown', e => {
 
 <script>
 // ── Data ──────────────────────────────────────────────────────
-const KPIS        = [{"label": "Monthly Active Users", "value": "15,000", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Customer Acquisition Cost", "value": "$75", "delta": "\u2193 5%", "color": "#06b6d4"}, {"label": "Conversion Rate", "value": "12%", "delta": "\u2191 2%", "color": "#f59e0b"}, {"label": "Retention Rate", "value": "85%", "delta": "\u2191 4%", "color": "#10b981"}];
+const KPIS        = [{"label": "Customer Acquisition Cost", "value": "$150", "delta": "\u2191 10%", "color": "#3b82f6"}, {"label": "Monthly Active Users", "value": "10,000", "delta": "\u2191 5%", "color": "#06b6d4"}, {"label": "Churn Rate", "value": "3%", "delta": "\u2193 2%", "color": "#f59e0b"}, {"label": "Conversion Rate", "value": "7%", "delta": "\u2191 1%", "color": "#10b981"}];
 const BAR_LABELS  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const BAR_VALUES  = [65, 82, 54, 91, 73, 38, 47];
 const BAR_TITLE   = "Weekly User Engagement";
-const LINE_TITLE  = "Growth Metrics Over Time";
-const TBL_TITLE   = "Current Marketing Pipeline";
-const TBL_HEADERS = ["Column1", "Column2", "Column3", "Value", "Status"];
-const TBL_ROWS    = [["App A", "Product Marketing", "Launch Campaign", "$120K", "Active"], ["App B", "Lifecycle Marketing", "Retention Strategy", "$85K", "Pending"], ["App C", "Growth Engineering", "User Acquisition", "$200K", "Active"], ["App D", "Product Marketing", "Rebranding", "$55K", "Closed"], ["App E", "Lifecycle Marketing", "Customer Journey", "$310K", "Active"]];
+const LINE_TITLE  = "Monthly Growth Trend";
+const TBL_TITLE   = "Active Marketing Campaigns";
+const TBL_HEADERS = ["Campaign Name", "Type", "Target Audience", "Budget", "Status"];
+const TBL_ROWS    = [["App Launch Campaign", "Email", "Young Adults", "$120K", "Active"], ["Retention Drive", "Social Media", "Existing Users", "$85K", "Pending"], ["Referral Program", "Influencer", "All Users", "$200K", "Active"], ["Seasonal Promotion", "Email", "New Users", "$55K", "Closed"], ["Feature Update Announcement", "Social Media", "All Users", "$310K", "Active"]];
 const NAV_ITEMS   = ["Overview", "Pipeline", "Analytics", "Reports", "Settings"];
-const APP_TITLE   = "Growth Engine Hub";
+const APP_TITLE   = "Growth Marketer Hub";
 
 // ── Populate static elements ──────────────────────────────────
 document.getElementById('brandName').textContent = APP_TITLE;
