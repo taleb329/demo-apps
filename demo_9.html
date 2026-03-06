@@ -191,16 +191,16 @@ document.addEventListener('keydown', e => {
 
 <script>
 // ── Data ──────────────────────────────────────────────────────
-const KPIS        = [{"label": "Total Viewers", "value": "1,200,000", "delta": "\u2191 15%", "color": "#3b82f6"}, {"label": "Engagement Rate", "value": "78%", "delta": "\u2191 10%", "color": "#06b6d4"}, {"label": "Average Watch Time", "value": "45 mins", "delta": "\u2191 5%", "color": "#f59e0b"}, {"label": "Revenue Generated", "value": "$2.5M", "delta": "\u2191 8%", "color": "#10b981"}];
+const KPIS        = [{"label": "Engagement Rate", "value": "75%", "delta": "\u2191 5%", "color": "#3b82f6"}, {"label": "Average View Duration", "value": "45 min", "delta": "\u2191 10%", "color": "#06b6d4"}, {"label": "Subscriber Growth", "value": "15%", "delta": "\u2191 3%", "color": "#f59e0b"}, {"label": "Ad Revenue", "value": "$1.2M", "delta": "\u2191 8%", "color": "#10b981"}];
 const BAR_LABELS  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const BAR_VALUES  = [65, 82, 54, 91, 73, 38, 47];
-const BAR_TITLE   = "Weekly Viewership Trends";
-const LINE_TITLE  = "Engagement Over Time";
-const TBL_TITLE   = "Sponsorship Opportunities";
-const TBL_HEADERS = ["Column1", "Column2", "Column3", "Value", "Status"];
-const TBL_ROWS    = [["National Sponsorship", "Broadcast", "Prime Time Slot", "$120K", "Active"], ["Local Sponsorship", "Event", "Community Engagement", "$85K", "Pending"], ["Digital Sponsorship", "Online", "Social Media Campaign", "$200K", "Active"], ["Merchandising", "Retail", "Team Merchandise", "$55K", "Closed"], ["International Sponsorship", "Broadcast", "Global Reach", "$310K", "Active"]];
+const BAR_TITLE   = "Weekly Viewer Trends";
+const LINE_TITLE  = "Monthly Engagement Trends";
+const TBL_TITLE   = "Current Campaign Performance";
+const TBL_HEADERS = ["Campaign Name", "Audience", "Details", "Revenue", "Status"];
+const TBL_ROWS    = [["Campaign A", "Sports Fans", "TV Ads", "$120K", "Active"], ["Campaign B", "Casual Viewers", "Social Media", "$85K", "Pending"], ["Campaign C", "Loyal Fans", "Email Marketing", "$200K", "Active"], ["Campaign D", "New Subscribers", "Digital Ads", "$55K", "Closed"], ["Campaign E", "Event Attendees", "Sponsorships", "$310K", "Active"]];
 const NAV_ITEMS   = ["Overview", "Pipeline", "Analytics", "Reports", "Settings"];
-const APP_TITLE   = "Viewership Insights Pro";
+const APP_TITLE   = "Fastbreak Insights Hub";
 
 // ── Populate static elements ──────────────────────────────────
 document.getElementById('brandName').textContent = APP_TITLE;
