@@ -191,16 +191,16 @@ document.addEventListener('keydown', e => {
 
 <script>
 // ── Data ──────────────────────────────────────────────────────
-const KPIS        = [{"label": "New Creators Recruited", "value": "15", "delta": "\u2191 20%", "color": "#3b82f6"}, {"label": "Engagement Rate", "value": "5.5%", "delta": "\u2191 10%", "color": "#06b6d4"}, {"label": "Video Views", "value": "1.2M", "delta": "\u2191 25%", "color": "#f59e0b"}, {"label": "Festival Partnerships", "value": "8", "delta": "\u2191 15%", "color": "#10b981"}];
+const KPIS        = [{"label": "Videos Created", "value": "150", "delta": "\u2191 20%", "color": "#3b82f6"}, {"label": "Engagement Rate", "value": "75%", "delta": "\u2191 15%", "color": "#06b6d4"}, {"label": "Follower Growth", "value": "5,000", "delta": "\u2191 30%", "color": "#f59e0b"}, {"label": "Revenue Generated", "value": "$300K", "delta": "\u2191 10%", "color": "#10b981"}];
 const BAR_LABELS  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
-const BAR_VALUES  = [120, 150, 130, 200, 180, 90, 110];
-const BAR_TITLE   = "Weekly Engagement Metrics";
-const LINE_TITLE  = "Monthly Growth in Video Views";
-const TBL_TITLE   = "Current Creator Pipeline";
-const TBL_HEADERS = ["Creator Name", "Specialty", "Platform", "Value", "Status"];
-const TBL_ROWS    = [["Alex Smith", "Viral Videos", "Instagram", "$120K", "Active"], ["Jordan Lee", "Event Coverage", "YouTube", "$85K", "Pending"], ["Taylor Brown", "Short Clips", "TikTok", "$200K", "Active"], ["Jamie White", "Behind-the-Scenes", "Facebook", "$55K", "Closed"], ["Morgan Johnson", "Live Streaming", "Twitch", "$310K", "Active"]];
-const NAV_ITEMS   = ["Overview", "Pipeline", "Analytics", "Reports", "Settings"];
-const APP_TITLE   = "Content Creator Connect";
+const BAR_VALUES  = [120, 145, 110, 160, 140, 95, 100];
+const BAR_TITLE   = "Weekly Video Engagement";
+const LINE_TITLE  = "Monthly Follower Growth Trend";
+const TBL_TITLE   = "Current Projects Overview";
+const TBL_HEADERS = ["Project Name", "Festival", "Creator", "Revenue", "Status"];
+const TBL_ROWS    = [["Viral Music Fest", "Coachella", "Alex Smith", "$150K", "Active"], ["Summer Beats", "Lollapalooza", "Jamie Lee", "$90K", "Pending"], ["Rock the Night", "Glastonbury", "Morgan Brown", "$250K", "Active"], ["Jazz in the Park", "Newport", "Chris Johnson", "$45K", "Closed"], ["Dance Fest", "Tomorrowland", "Taylor Swift", "$400K", "Active"]];
+const NAV_ITEMS   = ["Overview", "Projects", "Analytics", "Reports", "Settings"];
+const APP_TITLE   = "Content Creator Hub";
 
 // ── Populate static elements ──────────────────────────────────
 document.getElementById('brandName').textContent = APP_TITLE;
